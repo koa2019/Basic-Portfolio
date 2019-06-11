@@ -3,7 +3,8 @@
 
     <head>
         <title>Contact</title>
-        <rel="stylesheet" link href="assets/css/style.css" type="text/css"></rel>
+        <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     </head>
 
     <header>
@@ -22,14 +23,29 @@
 
     <body>
     <!-- insert contact form: name, email & message box, submit button-->
-        <form>
+        <form class="showForm">
+           
+            <div class="showForm">
+                <label>Name</label>
+                <input type="text">
+            </div>
+
+            <div class="showForm">
+                <label>Email</label>
+                <input type="email">
+            </div>
+
+            <div class="showForm">
+                <label>Message</label>
+                <input type="text">
+            </div>
+
+            <div class="showForm">
+                <input type="Submit" value="Submit">
+            </div>
 
         </form>
 
-        <!--add submit button with css-->
-        <button>
-
-        </button>
     </body>
 
 </html>
