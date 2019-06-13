@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+nav {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    background-color: rgb(223, 221, 221);
+   
+}
+ul {
+
+}
+ul li {
+    list-style: none;         /* removes bullets & all style from ul*/
+    display: inline-block;   /* ul is listed horizontally */
+    line-height: 100px; /*equal to nav height  */
+    float: right;
+    
+}
+ul li a {
+    
+    text-decoration: none; /*gets rid of underline on text link */
+    color: #1e1e11;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px;
+    display: block; /*creates box so bigger area to click on link*/
+    clear: both;
+    overflow: auto;
+}
