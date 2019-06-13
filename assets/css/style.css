@@ -11,8 +11,7 @@ nav {
 }
 body {
     background-color: rgb(223, 221, 221);
-    
-   
+      
 }
 ul {
     float: right;
@@ -37,4 +36,10 @@ ul li a {
 clear {
     clear:both;
     overflow: auto;
+}
+bioBox {
+
+}
+bioBox1 {
+    float:left;
 }
