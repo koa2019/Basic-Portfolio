@@ -67,6 +67,10 @@ img {
     margin: 30px 20px 10px 0;
    
 }
+.container1 {
+    margin: 20px 0 0;
+    max-width: 940px;
+}
 
 h1 {
     color:teal;
@@ -74,7 +78,6 @@ h1 {
     font-weight: bolder;
     display: inline-block;
     padding: 20px 0;
-
 }
 
 p {
@@ -107,24 +110,40 @@ footer {
 }
 
 .container2 {
-    margin: 20px 0 0 ;
+    margin-top: 20px;
     font-size: 18px;
-    max-width: 800px;
+    max-width: 940px;
 }
 
 .showForm {
-    padding: 0 10px 30px 0;
-    width: 100%;
+    padding: 0 10px 10px 0;
     line-height: 30px;
+    color: #787a94;
+
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    display: block;
 }
 
 #name {
-
+    width: 100%;         /*extends boxes to full width of form*/
 }
 
 #email {
-
+    width: 100%;         /*extends boxes to full width of form*/
 }
-.submit {
+#message {
+    width: 100%;         /*extends boxes to full width of form*/
+    height: 100px;
+}
+#submit {
     background-color: teal;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
 }
