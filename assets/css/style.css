@@ -55,7 +55,7 @@ body {
 .container {
     background-color: #fff;
     width:960px;
-    height: 500px;
+    height: 450px;
 
     margin: 50px 0 100px 80px;
     padding: 0 30px 10px;
@@ -108,7 +108,7 @@ footer {
     padding-top: 40px; 
     text-align: center;
 }
-
+/*
 .container2 {
     margin-top: 20px;
     font-size: 18px;
@@ -133,7 +133,6 @@ input, textarea {
 #name {
     width: 100%;         /*extends boxes to full width of form*/
 }
-
 #email {
     width: 100%;         /*extends boxes to full width of form*/
 }
@@ -147,3 +146,6 @@ input, textarea {
     font-size: 18px;
     padding: 5px;
 }
+*/
+
+
