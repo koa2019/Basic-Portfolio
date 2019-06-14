@@ -107,12 +107,23 @@ footer {
 }
 
 .container2 {
-    margin: 30px 0 0 0;
+    margin: 30px 0 0 ;
     font-size: 18px;
-    width: 800;
+    max-width: 500px;
 }
 
 .showForm {
     padding: 20px;
     width: 100%;
+}
+
+#name {
+
+}
+
+#email {
+
+}
+.submit {
+    background-color: teal;
 }
