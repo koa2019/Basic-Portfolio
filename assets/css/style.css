@@ -21,12 +21,12 @@ nav {
     display: inline-block;  /*realigned ul in nav*/
     text-align: center;
     line-height: 90px;
-    margin-left: 80px;
+    margin-left: 110px;
 }
 
 .navRight {
     float: right;
-    margin-right: 60px;    
+    margin-right: 90px;    
 }
 
 ul {
@@ -63,7 +63,7 @@ body {
     
 }
 .container1 {
-    margin: 20px 0 0;
+    margin: 20px auto 0;
     max-width: 940px;
 }
 .container2 { 
@@ -110,7 +110,7 @@ footer {
 }
 
 .footerCenter {
-    padding-top: 40px; 
+    padding-top: 25px; 
     text-align: center;
 }
 /*

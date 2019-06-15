@@ -1,23 +1,30 @@
 * {
   box-sizing: border-box;
 }
-.boxSet {
 
+.container2{
+    position: relative;    
+}
+
+.boxSet {
     min-height:1500px;
     height: auto;
+    position: relative;    
 
 }
-/*
-.box {
 
-    background-color: palevioletred;
+.box figcaption{
+    padding: 20px;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    background-color: teal;
+    color:white;
     position: absolute;
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
+    top:200;
 
 }
-*/
+
 .box1 {
     float: left;
 }
@@ -41,5 +48,5 @@
 }
 
 .hiddenBox {
-    invisible;
+    visibility:invisible;
 }
