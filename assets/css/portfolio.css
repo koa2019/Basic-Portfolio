@@ -9,36 +9,34 @@
     margin-top: 20px;
    
 }
+
 .boxSet {
     
-    position: relative;
-    height: 700px;    
+    position: relative; 
+    height: 400px;
 
-}
-
-.hiddenBox {
-    display: hidden;
 }
 
 .box {
 
+    background-color: palevioletred;
     position: relative;
     width: 200px;
     height: 200px;
 
 }
+
 .box1 {
-    top: 0;
+
 }
 
 .box2 {
-    left: 230px;
-    bottom: -200px;
+    
 }
 
 .box3 {
-    top:0;
     
+  top: 40px;  
 }
 
 .box4 {
@@ -47,5 +45,9 @@
 }
 
 .box5 {
-    top:0;
+    
+}
+
+.hiddenBox {
+    display: none;
 }
