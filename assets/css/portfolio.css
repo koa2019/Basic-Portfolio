@@ -1,0 +1,28 @@
+* {
+
+    box-sizing: border-box;
+
+}
+.container2 {
+
+    max-width: 940px;
+    height: auto;
+    position: relative;
+}
+.containerGrid {
+    
+    background-color: burlywood;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.box1 {
+
+
+}
+
+.two {
+
+
+}
