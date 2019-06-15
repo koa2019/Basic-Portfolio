@@ -1,28 +1,53 @@
 * {
 
-    box-sizing: border-box;
+  /*  box-sizing: border-box;  */
 
 }
 .container2 {
 
-    max-width: 940px;
-    height: auto;
-    position: relative;
+    max-width: 940px; 
+    height:400px;
+    margin-top: 20px;
+    background-color: white;
+   
 }
-.containerGrid {
+.boxSet {
     
-    background-color: burlywood;
-    margin: 0 auto;
-    position: absolute;
+    position: relative;
+    height: 700px;    
 
 }
 
+.hiddenBox {
+    display: hidden;
+}
+
+.box {
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+}
 .box1 {
-
-
+    top: 0;
 }
 
-.two {
+.box2 {
+    left: 230px;
+    bottom: -200px;
+}
 
+.box3 {
+    top:0;
+    
+}
 
+.box4 {
+    left:230px;
+    bottom: -230px;
+}
+
+.box5 {
+    top:0;
 }
