@@ -9,11 +9,13 @@
 .boxSet {
     min-height:1500px;
     height: auto;
-    position: relative;    
-
+    position: relative;  
+    
 }
 
 .box figcaption{
+    
+    font-size: 20px;  
     padding: 20px;
     height: 60px;
     width: 300px;
@@ -47,6 +49,10 @@
     float:left;    
 }
 
+.box6 {
+    float: left;
+}
+
 .hiddenBox {
-    visibility:invisible;
+    visibility:hidden;
 }
