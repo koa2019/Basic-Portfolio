@@ -2,14 +2,13 @@
   box-sizing: border-box;
 }
 
-.container2{
-    position: relative;    
+.container{
+position: relative;   
 }
 
 .boxSet {
     min-height:1500px;
     height: auto;
-    position: relative;  
     
 }
 
@@ -27,6 +26,10 @@
 
 }
 
+figcaption {
+    position: absolute;
+    top:200;
+}
 .box1 {
     float: left;
 }

@@ -2,6 +2,8 @@
     margin: 0;
     padding:0;
     font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';   
+    box-sizing: border-box;
+
 }
 
 nav {
@@ -27,10 +29,10 @@ nav {
 .navRight {
     float: right;
     margin-right: 90px;    
+    font-size: 18px;   
 }
 
 ul {
-    font-size: 16px;   
 }
 
 ul li {    
@@ -57,14 +59,13 @@ body {
     max-width:960px;
     height: auto;
     min-height: 400px;
-
     margin: 50px auto 100px;
     padding: 0 30px 10px;
     
 }
 .container1 {
     margin: 20px auto 0;
-    max-width: 940px;
+    max-width: 960px;
 }
 .container2 { 
 
