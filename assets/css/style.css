@@ -56,22 +56,23 @@ body {
     background-color: #fff;
     max-width:960px;
     height: auto;
+    min-height: 400px;
 
-    margin: 50px 0 100px 80px;
+    margin: 50px auto 100px;
     padding: 0 30px 10px;
     
-}
-
-img {
-    float:left;
-    margin: 30px 20px 10px 0;
-   
 }
 .container1 {
     margin: 20px 0 0;
     max-width: 940px;
 }
+.container2 { 
 
+    max-width: 960px; 
+    margin-top: 20px;
+    height: auto;
+   
+} 
 h1 {
     color:teal;
     font-size: 24px;
@@ -86,7 +87,11 @@ p {
     line-height: 30px;
     padding: 0 0 5px 0;
 }
-
+img {
+    float:left;
+    margin: 30px 20px 10px 0;
+   
+}
 .clear {              /*use to clear float elements*/
     clear:both;
     overflow: auto;

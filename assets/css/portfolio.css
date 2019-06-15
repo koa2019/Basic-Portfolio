@@ -1,53 +1,45 @@
 * {
-
-  /*  box-sizing: border-box;  */
-
+  box-sizing: border-box;
 }
-.container2 {
-
-    max-width: 940px; 
-    margin-top: 20px;
-   
-}
-
 .boxSet {
-    
-    position: relative; 
-    height: 400px;
+
+    min-height:1500px;
+    height: auto;
 
 }
-
+/*
 .box {
 
     background-color: palevioletred;
-    position: relative;
-    width: 200px;
-    height: 200px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
 
 }
-
+*/
 .box1 {
-
+    float: left;
 }
 
 .box2 {
+    float: left;   
     
 }
 
-.box3 {
-    
-  top: 40px;  
+.box3 {    
+    float: left;
+
 }
 
 .box4 {
-    left:230px;
-    bottom: -230px;
+    float: left;
 }
 
 .box5 {
-    
+    float:left;    
 }
 
 .hiddenBox {
-    display: none;
+    invisible;
 }
